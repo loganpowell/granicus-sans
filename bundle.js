@@ -17159,7 +17159,7 @@ var makeDate = function makeDate(user_date, days_ago) {
   return (0, _moment["default"])(user_date).subtract(days_ago, 'days').format('YYYY-MM-DD');
 };
 
-var base_url = "https://cors.app.cloud.gov/https://api.govdelivery.com/api/v2/accounts/".concat(account, "/");
+var base_url = "https://api.govdelivery.com/api/v2/accounts/".concat(account, "/");
 
 var makeURLDateRange = function makeURLDateRange(user_date, end, start) {
   return "start_date=".concat(makeDate(user_date, start), "&end_date=").concat(makeDate(user_date, end));
