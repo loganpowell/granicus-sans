@@ -17693,7 +17693,7 @@ var detailFetcher = function detailFetcher(tableID, key) {
                 console.log(todo);
                 console.log("recurring fetcher");
                 _context4.next = 30;
-                return fetcher("https://cors.app.cloud.gov/https://api.govdelivery.com".concat(prime._links.next.href), todo);
+                return fetcher("https://api.govdelivery.com".concat(prime._links.next.href), todo);
 
               case 30:
                 _context4.next = 35;
