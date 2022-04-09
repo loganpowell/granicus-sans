@@ -18,7 +18,7 @@
     "lodash.mapkeys": "^4.6.0",
     "lodash.omit": "^4.5.0",
     "lodash.zip": "^4.2.0",
-    "moment": "^2.24.0"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
